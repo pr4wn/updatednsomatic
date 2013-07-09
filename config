@@ -1,0 +1,41 @@
+#############################################################################
+#                        Config for update-dnsomatic
+#         Mandatory parameters your DNS-O-Matic user id and password
+#############################################################################
+user = userid
+pass = password
+##############################################################################
+#                               Optional parameters
+#
+#  Further reading for optional parameters, see here:
+#  <http://www.dnsomatic.com/wiki/api>
+#   
+# myhost is the domain name(s) you wish to update (it will default to updating 
+# all your DNS-O-Matic items.  If you have more than one hostname that you wish
+# to update, use a comma separated list of up to 20 host names.
+# myhost=test.dyndns.org,customtest.dyndns.org.
+#
+# The value all.dnsomatic.com will update all your DNS-O-Matic services.
+#
+#myhost = all.dnsomatic.com
+#
+# host is the base path of the update url - defaults to updates.dnsomatic.com
+#host = updates.dnsomatic.com
+#
+# port The port number for https connection - defaults to 443
+#port = 443
+#
+# path is the remaining part of the url defaults to /nic/update?
+#path = /nic/update?
+#
+# wildcard defaults to NOCHG
+#wildcard=NOCHG
+#
+# mx specifies MX hostname for domain - defaults to NOCHG
+#mx=NOCHG
+#    
+# backmx specifies backup MX hostname for domain - defaults to NOCHG 
+#backmx=NOCHG
+#
+# force, forces an update after n days.
+#force = 7
